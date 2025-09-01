@@ -1,0 +1,631 @@
+{
+    "NAV_DASHBOARD": "لوحة التحكم",
+    "NAV_EARNINGS": "الأرباح",
+    "NAV_EARNINGS_ANALYTICS": "الأرباح والتحليلات",
+    "NAV_DETAILED_ANALYTICS": "تحليلات مفصلة",
+    "NAV_WITHDRAWALS": "السحوبات",
+    "NAV_MUSIC": "الموسيقى",
+    "NAV_MUSIC_LIBRARY": "مكتبة الموسيقى",
+    "NAV_REQUEST_TRACK": "طلب مقطوعة",
+    "NAV_AFFILIATE": "الشراكة",
+    "NAV_SUPPORT": "الدعم",
+    "NAV_SETTINGS": "الإعدادات",
+    "NAV_LOGOUT": "تسجيل الخروج",
+    "NAV_HELP": "المساعدة",
+
+    "USER_MEMBER": "عضو",
+    "USER_CREATOR": "منشئ المحتوى",
+    "USER_ADMIN": "مدير",
+
+    "PAGE_DASHBOARD_TITLE": "لوحة التحكم",
+    "WELCOME_BACK_USER": "أهلاً بعودتك",
+    "DASHBOARD_SUBTITLE": "نظرة عامة على أداء قنوات اليوتيوب الخاصة بك",
+    "STATS_ESTIMATED_EARNINGS": "الأرباح الشهرية المقدرة",
+    "STATS_BASED_ON_PERFORMANCE": "بناءً على الأداء الحالي",
+    "STATS_TOTAL_SUBSCRIBERS": "إجمالي المشتركين",
+    "STATS_ACROSS_CHANNELS": "عبر",
+    "STATS_CHANNELS": "قنوات",
+    "STATS_VIEWS_30_DAYS": "المشاهدات (30 يوماً)",
+    "STATS_LAST_30_DAYS": "آخر 30 يوماً",
+    "STATS_MUSIC_USAGE": "تم اكتشاف استخدام الموسيقى",
+    "STATS_VIDEOS_USING_MUSIC": "مقاطع فيديو تستخدم موسيقى SplitFlux",
+    "STATS_CONNECTED_CHANNELS": "القنوات المتصلة",
+    "STATS_ALL_CONNECTED": "جميع القنوات متصلة",
+    "STATS_NO_CHANNELS": "لا توجد قنوات بعد",
+    "STATS_PENDING_CONNECTION": "اتصال معلق",
+    "ACTION_BROWSE_MUSIC": "تصفح مكتبة الموسيقى",
+    "ACTION_BROWSE_MUSIC_DESC": "اعثر على المقطوعات المثالية لمقاطع الفيديو الخاصة بك على اليوتيوب",
+    "ACTION_VIEW_ANALYTICS": "عرض التحليلات المفصلة",
+    "ACTION_VIEW_ANALYTICS_DESC": "تتبع معدل الربح لكل ألف مشاهدة وإيرادات الموسيقى والمشاهدات المتفاعلة",
+    "ACTION_REQUEST_PAYOUT": "طلب دفعة",
+    "ACTION_WITHDRAW_BALANCE": "سحب رصيدك الحالي",
+    "ACTION_MINIMUM_REQUIRED": "الحد الأدنى",
+    "ACTION_REQUIRED": "مطلوب",
+    "ACTION_CONNECT_CHANNELS": "ربط القنوات",
+    "ACTION_CONNECT_CHANNELS_DESC": "اربط قنوات اليوتيوب للربح من الموسيقى",
+    "CHART_DAILY_EARNINGS": "اتجاه الأرباح اليومية",
+    "CHART_LAST_7_DAYS": "آخر 7 أيام",
+    "CHART_NO_EARNINGS": "لا توجد بيانات أرباح",
+    "CHART_CONNECT_CHANNELS": "اربط قنواتك لتبدأ في الربح!",
+    "CHANNELS_YOUR_YOUTUBE": "قنوات اليوتيوب الخاصة بك",
+    "CHANNEL_SUBSCRIBERS": "المشتركون",
+    "CHANNEL_MUSIC_USAGE": "تم اكتشاف استخدام الموسيقى",
+    "CHANNEL_VIDEOS": "مقاطع فيديو",
+    "CHANNEL_VIEWS_30_DAYS": "مشاهدات آخر 30 يوماً",
+    "STATUS_PENDING": "معلق",
+    "CHANNEL_MUSIC_REVENUE": "إيرادات الموسيقى (صافي)",
+    "NO_CHANNELS_MESSAGE": "لا توجد قنوات متصلة بعد. أضف قناة اليوتيوب الأولى لتبدأ!",
+    "CONNECT_FIRST_CHANNEL": "اربط قناتك الأولى",
+
+    "PAGE_SETTINGS_TITLE": "الإعدادات",
+    "ERROR_ENTER_YOUTUBE_URL": "يرجى إدخال رابط قناة اليوتيوب أو المعرف @",
+    "ERROR_VALID_YOUTUBE_URL": "يرجى إدخال رابط قناة يوتيوب صحيح أو معرف @ (مثال: @اسم_المستخدم، youtube.com/@اسم_المستخدم، أو youtube.com/channel/UC...)",
+    "ERROR_RESOLVE_CHANNEL": "لا يمكن العثور على قناة اليوتيوب. يرجى التحقق من الرابط أو المعرف @ والمحاولة مرة أخرى.",
+    "CHANNEL_ALREADY_CONNECTED": "هذه القناة متصلة بحسابك بالفعل!",
+    "CHANNEL_CONNECTED_OTHER": "هذه القناة متصلة بحساب آخر بالفعل",
+    "VERIFICATION_CODE_GENERATED": "تم إنشاء رمز التحقق! يرجى إضافته إلى وصف قناتك.",
+    "VERIFICATION_CANCELLED": "تم إلغاء التحقق بنجاح",
+    "VERIFICATION_NO_PROGRESS": "لا يوجد تحقق قيد التقدم",
+    "VERIFICATION_EXPIRED": "انتهت صلاحية رمز التحقق. يرجى إنشاء رمز جديد.",
+    "VERIFICATION_TOO_MANY_ATTEMPTS": "محاولات فاشلة كثيرة جداً. يرجى إنشاء رمز جديد.",
+    "ERROR_API_KEY_NOT_CONFIGURED": "مفتاح API الخاص باليوتيوب غير مُكوَّن",
+    "ERROR_CHANNEL_CONNECTED_DURING_VERIFICATION": "تم ربط هذه القناة من قبل شخص آخر أثناء عملية التحقق",
+    "CHANNEL_CONNECTED_SUCCESS": "تم ربط القناة بنجاح! يمكنك الآن إزالة الرمز من وصف قناتك.",
+    "VERIFICATION_CODE_NOT_FOUND": "لم يتم العثور على رمز التحقق في وصف القناة. تأكد من إضافة الرمز ونشر التغييرات. انتظر 1-2 دقيقة بعد النشر وحاول مرة أخرى.",
+    "CHANNEL_DISCONNECTED_SUCCESS": "تم قطع ربط القناة بنجاح",
+    "ERROR_API_ERROR": "خطأ في واجهة برمجة التطبيقات",
+    "ERROR_CHANNEL_NOT_FOUND": "لم يتم العثور على القناة",
+    "UNKNOWN_CHANNEL": "قناة غير معروفة",
+    "VERIFICATION_CODE_EXPIRED": "انتهت صلاحية رمز التحقق. يرجى إنشاء رمز جديد.",
+    "VERIFICATION_STILL_ACTIVE": "تحققك لا يزال نشطاً! يمكنك المتابعة من حيث توقفت.",
+    "DISCORD_USER": "مستخدم ديسكورد",
+    "COUNTRY_US": "الولايات المتحدة",
+    "COUNTRY_CA": "كندا",
+    "COUNTRY_GB": "المملكة المتحدة",
+    "COUNTRY_AU": "أستراليا",
+    "COUNTRY_DE": "ألمانيا",
+    "COUNTRY_FR": "فرنسا",
+    "COUNTRY_JP": "اليابان",
+    "COUNTRY_KR": "كوريا الجنوبية",
+    "COUNTRY_BR": "البرازيل",
+    "COUNTRY_MX": "المكسيك",
+    "COUNTRY_TR": "تركيا",
+    "COUNTRY_IN": "الهند",
+    "COUNTRY_CN": "الصين",
+    "COUNTRY_RU": "روسيا",
+    "TIMEZONE_EASTERN": "التوقيت الشرقي (الولايات المتحدة وكندا)",
+    "TIMEZONE_CENTRAL": "التوقيت المركزي (الولايات المتحدة وكندا)",
+    "TIMEZONE_MOUNTAIN": "توقيت الجبال (الولايات المتحدة وكندا)",
+    "TIMEZONE_PACIFIC": "توقيت المحيط الهادئ (الولايات المتحدة وكندا)",
+    "TIMEZONE_LONDON": "لندن",
+    "TIMEZONE_PARIS": "باريس",
+    "TIMEZONE_BERLIN": "برلين",
+    "TIMEZONE_ISTANBUL": "إسطنبول",
+    "TIMEZONE_TOKYO": "طوكيو",
+    "TIMEZONE_SEOUL": "سيول",
+    "TIMEZONE_SHANGHAI": "شنغهاي",
+    "TIMEZONE_INDIA": "الهند",
+    "TIMEZONE_SYDNEY": "سيدني",
+    "TIMEZONE_UTC": "التوقيت المنسق العالمي",
+    "SETTINGS_PROFILE": "الملف الشخصي",
+    "SETTINGS_CHANNELS": "القنوات",
+    "SETTINGS_AFFILIATE_INFO": "معلومات الشراكة",
+    "SETTINGS_PAYMENTS": "المدفوعات",
+    "SETTINGS_DISCONNECT_CHANNEL": "قطع ربط القناة",
+    "SETTINGS_DISCONNECT_CONFIRM": "هل أنت متأكد من أنك تريد قطع ربط هذه القناة؟",
+    "BTN_CANCEL": "إلغاء",
+    "BTN_DISCONNECT": "قطع الربط",
+    "SETTINGS_PROFILE_TITLE": "إعدادات الملف الشخصي",
+    "SETTINGS_PROFILE_DESCRIPTION": "إدارة ملفك الشخصي العام ومعلوماتك الشخصية.",
+    "SETTINGS_NOT_SPECIFIED": "غير محدد",
+    "BADGE_VERIFIED": "✓ موثق",
+    "BADGE_DISCORD": "ديسكورد",
+    "BADGE_CREATOR": "منشئ المحتوى",
+    "FORM_USERNAME": "اسم المستخدم",
+    "FORM_EMAIL": "عنوان البريد الإلكتروني",
+    "FORM_COUNTRY": "البلد",
+    "FORM_TIMEZONE": "المنطقة الزمنية",
+    "SETTINGS_TO_UPDATE": "لتحديث معلومات ملفك الشخصي، يرجى إنشاء تذكرة دعم. فريقنا سيساعدك في أي تغييرات.",
+    "DISCORD_CONNECTION": "اتصال ديسكورد",
+    "DISCORD_COMMUNITY": "مجتمع ديسكورد",
+    "DISCORD_COMMUNITY_ACCESS": "الوصول للمجتمع",
+    "STATUS_CONNECTED": "متصل",
+    "STATUS_NOT_CONNECTED": "غير متصل",
+    "BTN_CONNECT": "اتصال",
+    "DISCORD_USERNAME": "اسم المستخدم",
+    "DISCORD_SERVER": "الخادم",
+    "DISCORD_SPLITFLUX_COMMUNITY": "مجتمع SplitFlux",
+    "DISCORD_CONNECT_MESSAGE": "اربط حساب ديسكورد الخاص بك للانضمام إلى خادم مجتمعنا!",
+    "AFFILIATE_INFORMATION": "معلومات الشراكة",
+    "AFFILIATE_VIEW_REFERRAL_DETAILS": "اعرض تفاصيل الإحالة والمستخدم الذي دعاك.",
+    "AFFILIATE_REFERRED_BY": "تم إحالته من قبل",
+    "AFFILIATE_INVITED_TO_SPLITFLUX": "تمت دعوتك إلى SplitFlux",
+    "AFFILIATE_INVITE_CODE_USED": "رمز الدعوة المُستخدم",
+    "AFFILIATE_JOINED_DATE": "تاريخ الانضمام",
+    "AFFILIATE_NO_REFERRAL_INFO": "لا توجد معلومات إحالة",
+    "AFFILIATE_JOINED_DIRECTLY": "انضممت إلى SplitFlux مباشرة دون استخدام رمز دعوة.",
+    "YOUTUBE_CHANNELS": "قنوات اليوتيوب",
+    "CONNECT_YOUTUBE_CHANNELS": "اربط قنوات اليوتيوب الخاصة بك لتبدأ في الربح من المحتوى الموسيقي.",
+    "ADD_NEW_CHANNEL": "إضافة قناة جديدة",
+    "YOUTUBE_CHANNEL_URL": "رابط قناة اليوتيوب أو المعرف @",
+    "PLACEHOLDER_CHANNEL_HANDLE": "@قناتك، youtube.com/@قناتك، أو youtube.com/channel/UC...",
+    "YOUTUBE_EXAMPLES": "أمثلة: @splitflux، youtube.com/@splitflux، youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+    "BTN_GENERATE_CODE": "إنشاء رمز التحقق",
+    "VERIFICATION_CANCEL": "إلغاء التحقق",
+    "VERIFICATION_VERIFY_CHANNEL": "تحقق من القناة",
+    "VERIFICATION_CLICK_COPY": "انقر للنسخ",
+    "VERIFICATION_STEP_1": "1",
+    "VERIFICATION_STEP_2": "2",
+    "VERIFICATION_STEP_3": "3",
+    "VERIFICATION_STEP_4": "4",
+    "VERIFICATION_STEP_5": "5",
+    "STEP_CUSTOMIZE_CHANNEL": "اذهب إلى قناة اليوتيوب الخاصة بك وانقر على \"تخصيص القناة\"",
+    "STEP_BASIC_INFO": "انقر على تبويب \"المعلومات الأساسية\"",
+    "STEP_ADD_CODE_DESCRIPTION": "أضف الرمز أعلاه إلى حقل \"الوصف\" في قناتك",
+    "STEP_PUBLISH": "انقر على \"نشر\" لحفظ التغييرات",
+    "STEP_WAIT_CHECK": "انتظر 1-2 دقيقة وانقر على \"تحقق من القناة\" أدناه",
+    "CODE_EXPIRES": "ينتهي الرمز",
+    "TIMER_EXPIRED": "منتهي الصلاحية",
+    "VERIFICATION_ATTEMPTS": "المحاولات",
+    "BTN_CHECK_CHANNEL": "تحقق من القناة",
+    "BTN_START_OVER": "إلغاء والبدء من جديد",
+    "YOUR_CONNECTED_CHANNELS": "قنواتك المتصلة",
+    "NO_CHANNELS_CONNECTED": "لا توجد قنوات متصلة بعد.",
+    "ADD_FIRST_CHANNEL": "أضف قناة اليوتيوب الأولى أعلاه لتبدأ في الربح!",
+    "CHANNEL_ID": "معرف القناة",
+    "CHANNEL_CONNECTED": "متصلة",
+    "STATUS_ACTIVE": "✓ نشط",
+    "PAYMENT_METHODS": "طرق الدفع",
+    "PAYMENTS_MOVED_TO_EARNINGS": "تم نقل المدفوعات إلى الأرباح",
+    "PAYMENTS_MOVED_DESCRIPTION": "لتجربة أفضل، تم نقل جميع طرق الدفع وخيارات السحب إلى قسم الأرباح في لوحة التحكم الخاصة بك.",
+    "GO_TO_EARNINGS": "الذهاب إلى الأرباح",
+    "PAYMENTS_PHONE_VERIFICATION_SOON": "سيصبح هذا القسم تبويب التحقق من الهاتف قريباً",
+    "FORM_FILL_REQUIRED_FIELDS": "يرجى ملء جميع الحقول المطلوبة",
+    "JS_CHECKING": "جاري التحقق...",
+    "JS_GENERATING": "جاري الإنشاء...",
+    "DISCONNECT_DISCORD": "قطع ربط ديسكورد؟ سيؤدي هذا إلى إزالة مزامنة الصورة الرمزية والوصول للمجتمع.",
+    "SET_PRIMARY_PAYMENT": "تعيين هذه كطريقة الدفع الأساسية الخاصة بك؟",
+    "PAYMENT_METHOD_SET_PRIMARY": "تم تعيين طريقة الدفع كأساسية بنجاح!",
+
+    "PAGE_EARNINGS_TITLE": "الأرباح والتحليلات",
+    "PAGE_EARNINGS_ANALYTICS_TITLE": "الأرباح والتحليلات",
+    "PAGE_EARNINGS_ANALYTICS_SUBTITLE": "تتبع أداء إيراداتك وتحقيق الدخل من الموسيقى",
+    "BUTTON_REQUEST_WITHDRAWAL": "طلب سحب",
+    "EARNINGS_DISCLAIMER": "جميع المقاييس المعروضة مقدرة وقد تتقلب. قد ترتفع أو تنخفض الإيرادات النهائية بعد المعالجة.",
+    "STATS_TOTAL_REVENUE": "إجمالي الإيرادات",
+    "STATS_EARNING_DAYS": "أيام الربح",
+    "STATS_AVAILABLE_BALANCE": "الرصيد المتاح",
+    "STATS_READY_FOR_WITHDRAWAL": "جاهز للسحب",
+    "STATS_BUILDING_UP": "في تزايد...",
+    "STATS_MINIMUM_PAYOUT": "الحد الأدنى",
+    "STATS_FOR_PAYOUT": "للدفع",
+    "STATS_AVERAGE_RPM": "متوسط الربح لكل ألف مشاهدة",
+    "STATS_PER_THOUSAND_VIEWS": "لكل 1000 مشاهدة",
+    "STATS_ABOVE_AVERAGE": "فوق المتوسط",
+    "STATS_INDUSTRY_STANDARD": "المعيار الصناعي",
+    "STATS_AFFILIATE_EARNINGS": "أرباح الشراكة",
+    "STATS_FROM_REFERRALS": "من",
+    "STATS_REFERRALS": "إحالات",
+    "STATS_FIXED_COMMISSION": "عمولة ثابتة 4%",
+    "CHART_REVENUE_TREND": "اتجاه الإيرادات",
+    "CHART_LAST_30_DAYS": "آخر 30 يوماً",
+    "CHART_NO_EARNINGS_DATA": "لا توجد بيانات أرباح",
+    "CHART_CONNECT_CHANNELS_MESSAGE": "اربط قنوات اليوتيوب الخاصة بك وابدأ في استخدام<br>موسيقى SplitFlux لترى أرباحك هنا",
+    "CHART_TOP_PERFORMERS": "الأداء الأفضل",
+    "CHART_THIS_MONTH": "هذا الشهر",
+    "EMPTY_NO_TRACK_DATA": "لا توجد بيانات مقطوعة",
+    "EMPTY_START_USING_TRACKS": "ابدأ في استخدام المقطوعات الموسيقية لترى الأداء الأفضل",
+    "TRACK_NUMBER": "مقطوعة #",
+    "PERFORMER_VIDEOS": "مقاطع فيديو",
+    "SECTION_CHANNEL_PERFORMANCE": "أداء القنوات",
+    "SECTION_LAST_30_DAYS": "آخر 30 يوماً",
+    "CHANNEL_MUSIC_TRACKS": "مقطوعات موسيقية",
+    "CHANNEL_VIDEOS_WITH_MUSIC": "مقاطع فيديو بموسيقى",
+    "CHANNEL_TOTAL_REVENUE": "إجمالي الإيرادات",
+    "CHANNEL_TOTAL_VIEWS": "إجمالي المشاهدات",
+    "ANALYTICS_TOP_PERFORMING_TRACKS": "المقطوعات الأفضل أداءً",
+    "ANALYTICS_THIS_MONTH": "هذا الشهر",
+    "TRACK_USED_IN": "مُستخدم في",
+    "TRACK_VIDEOS": "مقاطع فيديو",
+    "ANALYTICS_TERRITORY_PERFORMANCE": "أداء المناطق",
+    "ANALYTICS_LAST_30_DAYS": "آخر 30 يوماً",
+    "TERRITORY_VIDEOS": "مقاطع فيديو",
+    "SECTION_AFFILIATE_PERFORMANCE": "أداء الشراكة",
+    "ANALYTICS_AFFILIATE_EARNINGS_OVERVIEW": "نظرة عامة على أرباح الشراكة",
+    "AFFILIATE_TOTAL_COMMISSION": "إجمالي العمولة",
+    "AFFILIATE_RATE": "المعدل",
+    "AFFILIATE_ACTIVE_REFERRALS": "الإحالات النشطة",
+    "ANALYTICS_YOUR_REFERRALS": "إحالاتك",
+    "ANALYTICS_ACTIVE_USERS": "المستخدمون النشطون",
+    "REFERRAL_DAYS_AGO": "أيام مضت",
+    "REFERRAL_NEW_MEMBER": "عضو جديد",
+    "REFERRAL_MONTH": "شهر",
+    "REFERRAL_MONTHS": "أشهر",
+    "REFERRAL_ACTIVE": "نشط",
+    "SECTION_RECENT_WITHDRAWALS": "السحوبات الأخيرة",
+    "SECTION_YOUR_CHANNELS": "قنواتك",
+    "EMPTY_NO_CHANNELS_CONNECTED": "لا توجد قنوات متصلة",
+    "EMPTY_CONNECT_CHANNELS_MESSAGE": "اربط قنوات اليوتيوب الخاصة بك لتبدأ في الربح من استخدام الموسيقى",
+    "BUTTON_CONNECT_CHANNEL": "ربط قناة",
+
+    "PAGE_AFFILIATE_TITLE": "برنامج الشراكة",
+    "PAGE_AFFILIATE_PROGRAM_TITLE": "برنامج الشراكة",
+    "PAGE_AFFILIATE_SUBTITLE": "اكسب عمولة 4% من كل مستخدم تحيله",
+    "AFFILIATE_STATS_TOTAL_REFERRALS": "إجمالي الإحالات",
+    "AFFILIATE_STATS_USERS_REFERRED": "المستخدمون المُحالون",
+    "AFFILIATE_STATS_TOTAL_COMMISSION": "إجمالي العمولة",
+    "AFFILIATE_STATS_ALL_TIME_EARNINGS": "أرباح كل الأوقات",
+    "AFFILIATE_STATS_PENDING": "معلقة",
+    "AFFILIATE_STATS_AWAITING_PAYOUT": "في انتظار الدفع",
+    "AFFILIATE_STATS_PAID_OUT": "مدفوعة",
+    "AFFILIATE_STATS_ALREADY_RECEIVED": "تم الاستلام بالفعل",
+    "AFFILIATE_YOUR_UNIQUE_INVITE_CODE": "رمز الدعوة الفريد الخاص بك",
+    "AFFILIATE_CLICK_TO_COPY": "انقر للنسخ",
+    "AFFILIATE_SHARE_THIS_LINK": "شارك هذا الرابط:",
+    "AFFILIATE_COPY_LINK": "نسخ الرابط",
+    "AFFILIATE_COPY_CODE": "نسخ الرمز",
+    "AFFILIATE_FIXED_COMMISSION": "عمولة ثابتة من جميع أرباح الإحالة",
+    "AFFILIATE_REFERRED_USERS": "المستخدمون المُحالون",
+    "AFFILIATE_NO_REFERRALS_YET": "لا توجد إحالات بعد",
+    "AFFILIATE_SHARE_INVITE_CODE": "شارك رمز الدعوة الخاص بك لتبدأ في كسب العمولات",
+    "AFFILIATE_NEW": "جديد",
+    "JS_COPIED": "تم النسخ",
+
+    "PAGE_MUSIC_LIBRARY_TITLE": "مكتبة الموسيقى",
+    "PAGE_MUSIC_LIBRARY_HEADER": "مكتبة الموسيقى",
+    "PAGE_MUSIC_LIBRARY_SUBTITLE": "اكتشف واستمع لمقطوعات من مجموعة اليوتيوب المختارة لدينا",
+    "LIBRARY_DEFAULT_TITLE": "مكتبة الموسيقى",
+    "LIBRARY_DEFAULT_DESCRIPTION": "مجموعة موسيقية مميزة",
+    "LIBRARY_CHANNEL_AVATAR": "قناة",
+    "LIBRARY_TRACKS": "مقطوعات",
+    "LIBRARY_SUBSCRIBERS": "مشتركين",
+    "LIBRARY_VISIT_CHANNEL": "زيارة القناة",
+    "LIBRARY_STATS_TOTAL_TRACKS": "إجمالي المقطوعات",
+    "LIBRARY_STATS_PREMIUM_COLLECTION": "مجموعة مميزة",
+    "LIBRARY_STATS_TOTAL_VIEWS": "إجمالي المشاهدات",
+    "LIBRARY_STATS_ACROSS_ALL_TRACKS": "عبر جميع المقطوعات",
+    "LIBRARY_STATS_CURRENT_PAGE": "الصفحة الحالية",
+    "LIBRARY_STATS_TRACKS_SHOWN": "مقطوعات معروضة",
+    "LIBRARY_STATS_THIS_PAGE": "هذه الصفحة",
+    "LIBRARY_STATS_TRACKS_DISPLAYED": "مقطوعات معروضة",
+    "LIBRARY_SEARCH_MUSIC_TRACKS": "البحث عن مقطوعات موسيقية",
+    "LIBRARY_SEARCH_PLACEHOLDER": "البحث بالعنوان أو الفنان أو النوع...",
+    "LIBRARY_SEARCH_BUTTON": "البحث في المكتبة",
+    "LIBRARY_USAGE_TIP_TITLE": "نصيحة الاستخدام",
+    "LIBRARY_USAGE_TIP_TEXT": "ارفع مقطع قصير من تطبيق اليوتيوب المحمول واختر إحدى هذه المقطوعات بمستوى صوت 10% أو أعلى لتكون مؤهلاً لمشاركة الإيرادات من خلال برنامجنا.",
+    "LIBRARY_NO_TRACKS_FOUND": "لم يتم العثور على مقطوعات",
+    "LIBRARY_ADJUST_SEARCH": "حاول تعديل معايير البحث الخاصة بك أو تصفح جميع المقطوعات.",
+    "LIBRARY_NO_VIDEOS_AVAILABLE": "لا توجد فيديوهات متاحة في الوقت الحالي.",
+    "LIBRARY_API_CONNECTION": "اتصال واجهة برمجة التطبيقات",
+    "LIBRARY_ACTIVE": "نشط",
+    "LIBRARY_NOT_CONFIGURED": "غير مُكوَّن",
+    "LIBRARY_AVAILABLE_MUSIC": "الموسيقى المتاحة",
+    "LIBRARY_SORT_BY": "ترتيب حسب",
+    "LIBRARY_SORT_MOST_POPULAR": "الأكثر شعبية",
+    "LIBRARY_SORT_NEWEST_FIRST": "الأحدث أولاً",
+    "LIBRARY_SORT_A_TO_Z": "أ-ي",
+    "LIBRARY_GENRE_AMBIENT": "أمبيانت",
+    "LIBRARY_GENRE_CHILL_RELAXING": "مريح، هادئ",
+    "LIBRARY_GENRE_ENERGETIC_UPBEAT": "حيوي، نشيط",
+    "LIBRARY_GENRE_PIANO_CLASSICAL": "بيانو، كلاسيكي",
+    "LIBRARY_GENRE_ELECTRONIC_SYNTH": "إلكتروني، سينث",
+    "LIBRARY_GENRE_ACOUSTIC_GUITAR": "صوتي، جيتار",
+    "LIBRARY_GENRE_CINEMATIC_EPIC": "سينمائي، ملحمي",
+    "LIBRARY_VIEWS": "مشاهدات",
+    "LIBRARY_PREVIEW": "معاينة",
+    "LIBRARY_PREVIOUS": "السابق",
+    "LIBRARY_PAGE": "صفحة",
+    "LIBRARY_NEXT": "التالي",
+    "JS_OPENING_VIDEO": "جاري فتح فيديو اليوتيوب...",
+    "JS_PREVIEWING": "جاري المعاينة",
+    "JS_LOADING": "جاري التحميل...",
+
+    "PAGE_REQUEST_A_TRACK_TITLE": "طلب مقطوعة",
+    "PAGE_REQUEST_A_TRACK_HEADER": "طلب مقطوعة",
+    "PAGE_REQUEST_A_TRACK_SUBTITLE": "أرسل طلباً وفريقنا سيضيفه إلى مكتبة الموسيقى",
+    "REQUEST_ERROR_DESCRIPTION_TOO_SHORT": "يجب أن يكون الوصف 20 حرفاً على الأقل",
+    "REQUEST_SUCCESS_SUBMITTED": "تم إرسال الطلب بنجاح!",
+    "REQUEST_STATS_TOTAL_REQUESTS": "إجمالي الطلبات",
+    "REQUEST_STATS_ALL_SUBMISSIONS": "جميع المرسلات",
+    "REQUEST_STATS_PENDING": "معلقة",
+    "REQUEST_STATS_UNDER_REVIEW": "قيد المراجعة",
+    "REQUEST_STATS_APPROVED": "موافق عليها",
+    "REQUEST_STATS_ADDED_TO_LIBRARY": "مضافة إلى المكتبة",
+    "REQUEST_SUBMIT_NEW_REQUEST": "إرسال طلب جديد",
+    "REQUEST_TRACK_TITLE_OPTIONAL": "عنوان المقطوعة (اختياري)",
+    "REQUEST_TITLE_PLACEHOLDER": "مثال: إيقاع لوفاي هادئ",
+    "REQUEST_TITLE_HELP": "بحد أقصى 15 حرفاً",
+    "REQUEST_REFERENCE_TRACK": "مقطوعة مرجعية",
+    "REQUEST_REFERENCE_PLACEHOLDER": "https://youtube.com/...",
+    "REQUEST_REFERENCE_HELP": "رابط يوتيوب اختياري",
+    "REQUEST_DESCRIPTION": "الوصف",
+    "REQUEST_DESCRIPTION_PLACEHOLDER": "صف الأسلوب والمزاج والإيقاع والآلات وحالة الاستخدام المقصودة...",
+    "REQUEST_DESCRIPTION_HELP": "مطلوب 20 حرفاً كحد أدنى",
+    "REQUEST_EXAMPLE_VIDEO": "فيديو مثال",
+    "REQUEST_EXAMPLE_PLACEHOLDER": "https://youtube.com/...",
+    "REQUEST_EXAMPLE_HELP": "مثال اختياري لمحتوى مماثل",
+    "REQUEST_SUBMIT_BUTTON": "إرسال الطلب",
+    "REQUEST_RECENT_REQUESTS": "الطلبات الأخيرة",
+    "REQUEST_NO_REQUESTS_YET": "لا توجد طلبات بعد",
+    "REQUEST_SUBMIT_FIRST_REQUEST": "أرسل طلب المقطوعة الأول لتبدأ",
+    "REQUEST_NUMBER": "طلب #",
+    "REQUEST_STATUS_PENDING": "معلق",
+    "REQUEST_STATUS_APPROVED": "موافق عليه",
+    "REQUEST_STATUS_REJECTED": "مرفوض",
+    "JS_SUBMITTING": "جاري الإرسال...",
+    "JS_MINIMUM_CHARACTERS": "مطلوب 20 حرفاً كحد أدنى",
+    "JS_DESCRIPTION_GOOD": "✓ الوصف يبدو جيداً",
+    "JS_CHARACTERS": "أحرف",
+
+    "PAGE_WITHDRAWALS_TITLE": "السحوبات",
+    "WITHDRAWAL_ERROR_TIPALTI_SETUP_REQUIRED": "يرجى إكمال إعداد Tipalti قبل طلب السحوبات",
+    "WITHDRAWAL_ERROR_INVALID_AMOUNT": "يرجى إدخال مبلغ سحب صحيح",
+    "WITHDRAWAL_ERROR_MINIMUM_AMOUNT": "الحد الأدنى لمبلغ السحب هو",
+    "WITHDRAWAL_ERROR_EXCEEDS_BALANCE": "لا يمكن أن يتجاوز مبلغ السحب الرصيد المتاح",
+    "WITHDRAWAL_SUCCESS_SUBMITTED": "تم إرسال طلب السحب بنجاح! المرجع:",
+    "WITHDRAWAL_ERROR_PROCESSING_FAILED": "فشلت معالجة طلب السحب:",
+    "WITHDRAWAL_STATUS_PENDING": "معلق",
+    "WITHDRAWAL_STATUS_PROCESSING": "قيد المعالجة",
+    "WITHDRAWAL_STATUS_COMPLETED": "مكتمل",
+    "WITHDRAWAL_STATUS_FAILED": "فاشل",
+    "WITHDRAWAL_STATUS_CANCELLED": "ملغي",
+    "WITHDRAWAL_STATUS_UNKNOWN": "غير معروف",
+    "TIPALTI_SETUP_REQUIRED": "أكمل إعداد Tipalti لسحب الأموال",
+    "TIPALTI_SETUP_PENDING": "إعداد Tipalti قيد التقدم",
+    "TIPALTI_READY_FOR_WITHDRAWAL": "جاهز للسحب",
+    "WITHDRAWAL_MINIMUM_AMOUNT_REQUIRED": "الحد الأدنى لمبلغ السحب هو",
+    "WITHDRAWAL_AVAILABLE_BALANCE": "الرصيد المتاح",
+    "TIPALTI_CONNECTED": "Tipalti متصل",
+    "WITHDRAWAL_QUICK_WITHDRAW": "سحب سريع",
+    "WITHDRAWAL_CANNOT_WITHDRAW_YET": "لا يمكن السحب بعد",
+    "WITHDRAWAL_SETUP_PAYMENT_ACCOUNT": "إعداد حساب الدفع",
+    "WITHDRAWAL_STATISTICS": "الإحصائيات",
+    "WITHDRAWAL_STATS_TOTAL_REQUESTS": "إجمالي الطلبات",
+    "WITHDRAWAL_STATS_TOTAL_WITHDRAWN": "إجمالي المسحوب",
+    "WITHDRAWAL_STATS_PENDING": "معلق",
+    "WITHDRAWAL_STATS_LAST_REQUEST": "آخر طلب",
+    "WITHDRAWAL_PAYMENT_ACCOUNT_CONNECTED": "حساب الدفع متصل",
+    "WITHDRAWAL_SETUP_REQUIRED_TO_WITHDRAW": "الإعداد مطلوب للسحب",
+    "WITHDRAWAL_PAYMENT_INFO": "معلومات الدفع",
+    "WITHDRAWAL_MINIMUM_AMOUNT": "الحد الأدنى للمبلغ",
+    "WITHDRAWAL_PROCESSING_TIME": "وقت المعالجة",
+    "WITHDRAWAL_PROCESSING_TIME_VALUE": "1-3 أيام",
+    "WITHDRAWAL_FEES": "الرسوم",
+    "WITHDRAWAL_FEES_FREE": "مجاني",
+    "WITHDRAWAL_PAYMENT_PARTNER": "شريك الدفع",
+    "WITHDRAWAL_REQUEST_WITHDRAWAL": "طلب سحب",
+    "WITHDRAWAL_AMOUNT_USD": "المبلغ (دولار أمريكي)",
+    "WITHDRAWAL_MIN": "أدنى",
+    "WITHDRAWAL_MAX": "أقصى",
+    "WITHDRAWAL_SUBMIT_REQUEST": "إرسال الطلب",
+    "WITHDRAWAL_INSUFFICIENT_BALANCE": "رصيد غير كافي",
+    "WITHDRAWAL_PAYMENT_ACCOUNT_SETUP": "إعداد حساب الدفع",
+    "WITHDRAWAL_SETUP_DESCRIPTION": "لسحب أرباحك، تحتاج إلى إكمال عملية إعداد آمنة مع شريك الدفع الخاص بنا Tipalti.",
+    "WITHDRAWAL_FEATURE_IDENTITY_VERIFICATION": "التحقق من الهوية",
+    "WITHDRAWAL_FEATURE_TAX_INFORMATION": "المعلومات الضريبية",
+    "WITHDRAWAL_FEATURE_PAYMENT_METHOD": "طريقة الدفع",
+    "WITHDRAWAL_FEATURE_GLOBAL_COMPLIANCE": "الامتثال العالمي",
+    "WITHDRAWAL_START_SETUP_PROCESS": "بدء عملية الإعداد",
+    "WITHDRAWAL_SETUP_TIME_INFO": "الإعداد يستغرق 5-10 دقائق ويحتاج إلى إكماله مرة واحدة فقط",
+    "WITHDRAWAL_RECENT_WITHDRAWALS": "السحوبات الأخيرة",
+    "WITHDRAWAL_TIPALTI_PAYMENT": "دفعة Tipalti",
+    "WITHDRAWAL_REFERENCE": "المرجع",
+    "WITHDRAWAL_NO_WITHDRAWALS_YET": "لا توجد سحوبات بعد",
+    "WITHDRAWAL_NO_WITHDRAWALS_DESCRIPTION": "ستظهر طلبات السحب الخاصة بك هنا بمجرد إرسالها.",
+    "JS_MINIMUM_REQUIRED": "الحد الأدنى",
+    "JS_REQUIRED": "مطلوب",
+    "JS_EXCEEDS_BALANCE": "يتجاوز الرصيد المتاح",
+    "JS_ENTER_AMOUNT": "أدخل المبلغ",
+    "JS_ENTER_VALID_AMOUNT": "يرجى إدخال مبلغ سحب صحيح",
+    "JS_PROCESSING": "جاري المعالجة...",
+
+    "PAGE_SUPPORT_TITLE": "مركز الدعم",
+    "PAGE_SUPPORT_HEADER": "مركز الدعم",
+    "PAGE_SUPPORT_SUBTITLE": "إنشاء تذكرة دعم",
+
+    "SUPPORT_ERROR_ENTER_MESSAGE": "يرجى تقديم رسالة.",
+    "SUPPORT_ERROR_TICKET_NOT_FOUND": "لم يتم العثور على التذكرة.",
+    "SUPPORT_ERROR_TICKET_CLOSED": "هذه التذكرة مغلقة. لا يمكنك إرسال رسائل جديدة.",
+    "SUPPORT_ERROR_SENDING_MESSAGE": "خطأ في إرسال الرسالة.",
+    "SUPPORT_ERROR_FILL_REQUIRED_FIELDS": "يرجى ملء جميع الحقول المطلوبة.",
+    "SUPPORT_ERROR_MESSAGE_TOO_SHORT": "يجب أن تكون الرسالة 10 أحرف على الأقل.",
+    "SUPPORT_ERROR_CREATING_TICKET": "خطأ في إنشاء التذكرة. يرجى المحاولة مرة أخرى.",
+    "SUPPORT_SUCCESS_MESSAGE_SENT": "تم إرسال الرسالة بنجاح!",
+    "SUPPORT_SUCCESS_TICKET_CREATED": "تم إنشاء تذكرة الدعم بنجاح! 🎉",
+
+    "SUPPORT_STATS_TOTAL_REQUESTS": "إجمالي الطلبات",
+    "SUPPORT_STATS_ACTIVE_CHATS": "المحادثات النشطة",
+    "SUPPORT_STATS_RESOLVED": "محلولة",
+    "SUPPORT_STATS_NEW_MESSAGES": "رسائل جديدة",
+
+    "SUPPORT_TICKETS_TITLE": "تذاكر الدعم",
+    "SUPPORT_NEW_CHAT_BUTTON": "محادثة جديدة",
+
+    "SUPPORT_STATUS_OPEN": "مفتوحة",
+    "SUPPORT_STATUS_IN_PROGRESS": "قيد التقدم",
+    "SUPPORT_STATUS_WAITING_USER": "في انتظار المستخدم",
+    "SUPPORT_STATUS_CLOSED": "مغلقة",
+
+    "SUPPORT_NO_CONVERSATIONS": "لا توجد محادثات بعد",
+    "SUPPORT_START_NEW_CHAT": "ابدأ محادثة جديدة مع الدعم!",
+
+    "SUPPORT_SELECT_CONVERSATION": "اختر محادثة",
+    "SUPPORT_WELCOME_TITLE": "مرحباً بك في محادثة الدعم!",
+    "SUPPORT_WELCOME_MESSAGE": "اختر محادثة من الشريط الجانبي أو ابدأ محادثة جديدة",
+    "SUPPORT_TYPE_MESSAGE_PLACEHOLDER": "اكتب رسالتك...",
+
+    "SUPPORT_START_NEW_CONVERSATION": "بدء محادثة جديدة",
+    "SUPPORT_CATEGORY_LABEL": "الفئة",
+    "SUPPORT_SELECT_CATEGORY": "اختر فئة",
+    "SUPPORT_CATEGORY_ACCOUNT": "مشاكل الحساب",
+    "SUPPORT_CATEGORY_PAYMENT": "الدفع والفوترة",
+    "SUPPORT_CATEGORY_TECHNICAL": "الدعم التقني",
+    "SUPPORT_CATEGORY_MUSIC": "مكتبة الموسيقى",
+    "SUPPORT_CATEGORY_GENERAL": "سؤال عام",
+    "SUPPORT_CATEGORY_OTHER": "أخرى",
+
+    "SUPPORT_PRIORITY_LABEL": "الأولوية",
+    "SUPPORT_PRIORITY_LOW": "منخفضة",
+    "SUPPORT_PRIORITY_MEDIUM": "متوسطة",
+    "SUPPORT_PRIORITY_HIGH": "عالية",
+    "SUPPORT_PRIORITY_URGENT": "عاجلة",
+
+    "SUPPORT_SUBJECT_LABEL": "الموضوع",
+    "SUPPORT_SUBJECT_PLACEHOLDER": "وصف مختصر لمشكلتك",
+    "SUPPORT_MESSAGE_LABEL": "الرسالة",
+    "SUPPORT_MESSAGE_PLACEHOLDER": "صف مشكلتك بالتفصيل...",
+    "SUPPORT_START_CONVERSATION_BUTTON": "بدء المحادثة",
+
+    "SUPPORT_JS_TICKET_CLOSED_ALERT": "هذه التذكرة مغلقة. لا يمكنك إرسال رسائل جديدة.",
+    "SUPPORT_JS_ERROR_SENDING": "خطأ في إرسال الرسالة: ",
+    "SUPPORT_JS_UNKNOWN_ERROR": "خطأ غير معروف",
+    "SUPPORT_JS_ERROR_TRY_AGAIN": "خطأ في إرسال الرسالة. يرجى المحاولة مرة أخرى.",
+    "SUPPORT_JS_SUPPORT": "الدعم",
+    "SUPPORT_JS_YOU": "أنت",
+    "SUPPORT_JS_CONVERSATION_CLOSED": "هذه المحادثة مغلقة",
+    "SUPPORT_JS_START_CONVERSATION": "ابدأ المحادثة!",
+    "SUPPORT_JS_SEND_FIRST_MESSAGE": "أرسل رسالتك الأولى أدناه",
+
+    "TICKET_DETAIL_TICKET_ID": "معرف التذكرة",
+    "TICKET_DETAIL_SUBJECT": "الموضوع",
+    "TICKET_DETAIL_CATEGORY": "الفئة",
+    "TICKET_DETAIL_PRIORITY": "الأولوية",
+    "TICKET_DETAIL_STATUS": "الحالة",
+    "TICKET_DETAIL_CREATED": "تم الإنشاء",
+    "TICKET_DETAIL_LAST_UPDATED": "آخر تحديث",
+    "TICKET_DETAIL_ORIGINAL_MESSAGE": "رسالتك الأصلية",
+    "TICKET_DETAIL_CONVERSATION_HISTORY": "تاريخ المحادثة ({count} رسائل)",
+    "TICKET_DETAIL_SUPPORT_TEAM": "فريق الدعم",
+    "TICKET_DETAIL_SUPPORT_HISTORY": "تاريخ الدعم (تنسيق قديم)",
+    "TICKET_DETAIL_SEND_ADDITIONAL": "إرسال رسالة إضافية",
+    "TICKET_DETAIL_YOUR_MESSAGE": "رسالتك",
+    "TICKET_DETAIL_MESSAGE_PLACEHOLDER": "أضف المزيد من المعلومات أو اسأل أسئلة متابعة...",
+    "TICKET_DETAIL_SEND_MESSAGE_BTN": "إرسال الرسالة",
+    "TICKET_DETAIL_TICKET_CLOSED_TITLE": "التذكرة مغلقة",
+    "TICKET_DETAIL_TICKET_CLOSED_MESSAGE": "تم حل تذكرة الدعم هذه وإغلاقها.",
+
+    "PAGE_DETAILED_ANALYTICS_TITLE": "تحليلات مفصلة",
+    "ANALYTICS_PAGE_TITLE_WITH_ICON": "📊 تحليلات مفصلة",
+    "ANALYTICS_PAGE_SUBTITLE": "تعمق في أداء إيرادات الموسيقى ومقاييس المشاركة",
+    "ANALYTICS_ERROR_DATABASE_PROBLEM": "مشكلة في قاعدة البيانات، يرجى الاتصال بالدعم",
+    "ANALYTICS_DISCLAIMER": "جميع المقاييس المعروضة مقدرة وقد تتقلب. قد ترتفع أو تنخفض الإيرادات النهائية بعد المعالجة.",
+
+    "ANALYTICS_FILTER_TIME_RANGE": "النطاق الزمني",
+    "ANALYTICS_FILTER_LAST_7_DAYS": "آخر 7 أيام",
+    "ANALYTICS_FILTER_LAST_30_DAYS": "آخر 30 يوماً",
+    "ANALYTICS_FILTER_LAST_3_MONTHS": "آخر 3 أشهر",
+    "ANALYTICS_FILTER_LAST_YEAR": "العام الماضي",
+    "ANALYTICS_FILTER_CHANNEL": "القناة",
+    "ANALYTICS_FILTER_ALL_CHANNELS": "جميع القنوات",
+    "ANALYTICS_FILTER_VIEW_TYPE": "نوع العرض",
+    "ANALYTICS_FILTER_REVENUE": "الإيرادات",
+    "ANALYTICS_FILTER_VIEWS": "المشاهدات",
+    "ANALYTICS_FILTER_RPM": "معدل الربح لكل ألف مشاهدة",
+
+    "ANALYTICS_STAT_TOTAL_NET_REVENUE": "إجمالي الإيرادات الصافية",
+    "ANALYTICS_STAT_TOTAL_VIEWS": "إجمالي المشاهدات",
+    "ANALYTICS_STAT_AVERAGE_RPM": "متوسط الربح لكل ألف مشاهدة",
+    "ANALYTICS_STAT_ACTIVE_CHANNELS": "القنوات النشطة",
+    "ANALYTICS_STAT_DAILY_AVERAGE": "المتوسط اليومي",
+    "ANALYTICS_STAT_GLOBAL_REACH": "الوصول العالمي",
+    "ANALYTICS_STAT_LAST_X_DAYS": "آخر",
+    "ANALYTICS_STAT_DAYS": "أيام",
+    "ANALYTICS_STAT_PREMIUM": "مميز",
+    "ANALYTICS_STAT_PER_1K_VIEWS": "لكل 1000 مشاهدة",
+    "ANALYTICS_STAT_VIDEOS": "مقاطع فيديو",
+    "ANALYTICS_STAT_MONTHLY": "شهري",
+    "ANALYTICS_STAT_COUNTRIES_REACHED": "البلدان المُوصل إليها",
+
+    "ANALYTICS_CHART_DAILY_REVENUE_VIEWS_TREND": "اتجاه الإيرادات والمشاهدات اليومية",
+    "ANALYTICS_CHART_LEGEND_REVENUE": "الإيرادات",
+    "ANALYTICS_CHART_LEGEND_VIEWS": "المشاهدات",
+    "ANALYTICS_CHART_LAST_X_DAYS": "آخر",
+    "ANALYTICS_CHART_DAYS": "أيام",
+    "ANALYTICS_CHART_NO_DATA_AVAILABLE": "لا توجد بيانات متاحة",
+    "ANALYTICS_CHART_NO_DATA_SELECTED_PERIOD": "لم يتم العثور على بيانات تحليلية للفترة المحددة",
+    "ANALYTICS_CHART_REVENUE_DISTRIBUTION": "توزيع الإيرادات",
+    "ANALYTICS_CHART_PREMIUM_VS_REGULAR": "مميز مقابل عادي",
+    "ANALYTICS_CHART_YOUTUBE_PREMIUM_REVENUE_EST": "إيرادات يوتيوب المميز (مقدرة)",
+    "ANALYTICS_CHART_YOUTUBE_FREE_REVENUE_EST": "إيرادات يوتيوب المجاني (مقدرة)",
+    "ANALYTICS_CHART_PERCENT_OF_TOTAL": "% من إجمالي الإيرادات",
+    "ANALYTICS_CHART_VIEWS": "مشاهدات",
+    "ANALYTICS_CHART_TOTAL_REVENUE": "إجمالي الإيرادات",
+    "ANALYTICS_CHART_PREMIUM_RPM": "معدل الربح المميز لكل ألف مشاهدة",
+    "ANALYTICS_CHART_NO_REVENUE_DATA": "لا توجد بيانات إيرادات",
+    "ANALYTICS_CHART_START_EARNING_TO_SEE": "ابدأ في الربح لترى توزيع الإيرادات",
+
+    "ANALYTICS_SECTION_TOP_CHANNELS": "أفضل القنوات",
+    "ANALYTICS_SECTION_TOP_TRACKS": "أفضل المقطوعات",
+    "ANALYTICS_SECTION_COUNTRIES": "البلدان",
+    "ANALYTICS_SECTION_TOP_VIDEOS": "أفضل الفيديوهات",
+    "ANALYTICS_SECTION_DAILY_PERFORMANCE": "الأداء اليومي",
+    "ANALYTICS_SECTION_KEY_METRICS": "المقاييس الرئيسية",
+
+    "ANALYTICS_TABLE_CHANNEL": "القناة",
+    "ANALYTICS_TABLE_REVENUE": "الإيرادات",
+    "ANALYTICS_TABLE_VIEWS": "المشاهدات",
+    "ANALYTICS_TABLE_RPM": "معدل الربح لكل ألف مشاهدة",
+    "ANALYTICS_TABLE_TRACK": "المقطوعة",
+    "ANALYTICS_TABLE_USAGE": "الاستخدام",
+    "ANALYTICS_TABLE_VIDEO": "الفيديو",
+    "ANALYTICS_TABLE_VIDEOS": "مقاطع فيديو",
+
+    "ANALYTICS_TRACK_NUMBER": "مقطوعة #",
+    "ANALYTICS_COUNTRY_VIDEOS": "مقاطع فيديو",
+    "ANALYTICS_COUNTRY_REVENUE": "الإيرادات",
+    "ANALYTICS_COUNTRY_VIEWS": "مشاهدات",
+    "ANALYTICS_COUNTRY_RPM": "معدل الربح لكل ألف مشاهدة",
+    "ANALYTICS_DAY_VIEWS": "مشاهدات",
+    "ANALYTICS_DAY_REVENUE": "الإيرادات",
+    "ANALYTICS_DAY_AVG": "متوسط",
+
+    "ANALYTICS_EMPTY_NO_CHANNEL_DATA": "لا توجد بيانات قنوات",
+    "ANALYTICS_EMPTY_ADD_CHANNELS_TO_SEE": "أضف قنوات لترى التحليلات",
+    "ANALYTICS_EMPTY_NO_TRACK_DATA": "لا توجد بيانات مقطوعات",
+    "ANALYTICS_EMPTY_START_USING_MUSIC": "ابدأ في استخدام الموسيقى لترى التحليلات",
+    "ANALYTICS_EMPTY_NO_COUNTRY_DATA": "لا توجد بيانات بلدان",
+    "ANALYTICS_EMPTY_START_EARNING_TO_SEE_GLOBAL": "ابدأ في الربح لترى الوصول العالمي",
+    "ANALYTICS_EMPTY_NO_VIDEO_DATA": "لا توجد بيانات فيديو",
+    "ANALYTICS_EMPTY_VIDEOS_WITH_EARNINGS": "ستظهر الفيديوهات ذات الأرباح هنا",
+
+    "ANALYTICS_SUMMARY": "ملخص",
+    "ANALYTICS_METRICS_PREMIUM_RATE": "معدل المميز",
+    "ANALYTICS_METRICS_TRACKS_PER_VIDEO": "مقطوعات/فيديو",
+    "ANALYTICS_METRICS_ACTIVE_CHANNELS": "القنوات النشطة",
+    "ANALYTICS_METRICS_REVENUE_PER_VIDEO": "الإيرادات/فيديو",
+
+    "ANALYTICS_INSIGHTS": "رؤى",
+    "ANALYTICS_INSIGHT_STRONG_GROWTH": "زخم نمو قوي",
+    "ANALYTICS_INSIGHT_GREAT_GLOBAL_REACH": "وصول عالمي رائع",
+    "ANALYTICS_INSIGHT_COUNTRIES": "بلدان",
+    "ANALYTICS_INSIGHT_HIGH_PREMIUM_ENGAGEMENT": "معدل مشاركة مميز عالي",
+    "ANALYTICS_INSIGHT_GOOD_MUSIC_DIVERSITY": "تنوع موسيقي جيد لكل فيديو",
+    "ANALYTICS_INSIGHT_START_CREATING": "ابدأ في إنشاء المحتوى لترى الرؤى",
+
+    "ANALYTICS_MODAL_YOUTUBE_CHANNEL": "قناة اليوتيوب",
+    "ANALYTICS_MODAL_MUSIC_TRACK": "مقطوعة موسيقية",
+    "ANALYTICS_MODAL_VIDEO": "فيديو",
+    "ANALYTICS_MODAL_REVENUE": "الإيرادات",
+    "ANALYTICS_MODAL_VIEWS": "المشاهدات",
+    "ANALYTICS_MODAL_RPM": "معدل الربح لكل ألف مشاهدة",
+    "ANALYTICS_MODAL_VIDEOS": "فيديوهات",
+    "ANALYTICS_MODAL_TRACKS": "مقطوعات",
+    "ANALYTICS_MODAL_TRACKS_USED": "المقطوعات المُستخدمة",
+    "ANALYTICS_MODAL_PREMIUM_RATE": "معدل المميز",
+    "ANALYTICS_MODAL_CHANNEL_ID": "معرف القناة",
+    "ANALYTICS_MODAL_ASSET_ID": "معرف الأصل",
+    "ANALYTICS_MODAL_CHANNELS": "قنوات",
+    "ANALYTICS_MODAL_USAGE": "الاستخدام",
+    "ANALYTICS_MODAL_VIDEOS_LOWERCASE": "فيديوهات",
+    "ANALYTICS_MODAL_PREMIUM_VIEWS": "مشاهدات مميزة",
+    "ANALYTICS_MODAL_LAST_EARNING": "آخر ربح",
+    "ANALYTICS_MODAL_VIDEO_ID": "معرف الفيديو",
+    "ANALYTICS_MODAL_NA": "غير متوفر",
+
+    "ANALYTICS_JS_NO_CHANNEL_DATA": "لا توجد بيانات قناة",
+    "ANALYTICS_JS_NO_MUSIC_DATA": "لا توجد بيانات موسيقية",
+    "ANALYTICS_JS_ERROR_SHOWING_VIDEO": "خطأ في عرض الفيديو",
+
+    "ANALYTICS_TOOLTIP_REVENUE": "الإيرادات",
+    "ANALYTICS_TOOLTIP_VIEWS": "المشاهدات"
+}
